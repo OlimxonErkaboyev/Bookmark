@@ -321,6 +321,128 @@ img {
     background: transparent;
     border: 2px solid var(--btn-color);
     color: var(--btn-color);
-
+    
 }
+
+/* Download Section Styles Start */
+.download-title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: var(--main-text-color);
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.download-desc{
+    width: 400px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #242A45;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 48px;
+    margin-left: auto;
+}
+.download-list{
+    width: 961px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.download-item{
+    padding: 49px 15px 24px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--header-bg-color);
+    box-shadow: 0px 10px 20px -5px rgba(73, 93, 207, 0.20012);
+    border-radius: 15px; 
+}
+.download-item:nth-child(2){
+    margin-top: 48px;
+    padding: 49px 15px 24px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--header-bg-color);
+    box-shadow: 0px 10px 20px -5px rgba(73, 93, 207, 0.20012);
+    border-radius: 15px; 
+}
+.download-item:nth-child(3){
+    margin-top: 88px;
+    padding: 49px 15px 24px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--header-bg-color);
+    box-shadow: 0px 10px 20px -5px rgba(73, 93, 207, 0.20012);
+    border-radius: 15px; 
+}
+
+.download-box-title{
+    margin-bottom: 6px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* text-align: center; */
+    letter-spacing: 0.25px;
+    color: var(--main-text-color);
+}
+
+.download-box-desc{
+    margin-bottom: 32px;
+    font-size: 15px;
+    line-height: 28px;
+    /* text-align: center; */
+    color: #242A45;    
+    opacity: 0.5;
+}
+
+.nuqta{
+    margin-bottom: 24px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #495dcf33;
+    box-shadow: -120px 0 0  #495dcf33,-105px 0 0  #495dcf33,-90px 0 0  #495dcf33,-75px 0 0  #495dcf33,-60px 0 0  #495dcf33,-45px 0 0  #495dcf33,-30px 0 0  #495dcf33,-15px 0 0  #495dcf33,15px 0 0  #495dcf33, 30px 0 0#495dcf33, 45px 0 0#495dcf33,60px 0 0  #495dcf33,75px 0 0  #495dcf33,90px 0 0  #495dcf33,105px 0 0  #495dcf33,120px 0 0  #495dcf33;
+}
+
+.download-box-link{
+    margin-right: 9px;
+    margin-left: 9px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: var(--header-bg-color);
+    padding: 10px 35px;
+    background: var(--btn-color);
+    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+    border-radius: 5px;
+    border: 2px solid var(--btn-color);
+}
+
+.download-box-link:hover{
+    background: transparent;
+    color: var(--btn-color);
+    border: 2px solid var(--btn-color);
+}
+/* Download Section Styles End */
 
