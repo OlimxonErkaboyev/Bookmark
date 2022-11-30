@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/rubik-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/rubik-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* rubik-500 - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/rubik-v21-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/rubik-v21-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+:root {
+    --header-bg-color: #fff;
+    --main-text-color: #242A45;
+}
+
+/* GENERAL */
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-family: 'Rubik';
+    font-weight: 400;
+    background-color: var(--header-bg-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+/* CONTAINER */
+.container {
+    max-width: 1144px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.header{
+    padding-top: 48px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-end{
+    display: flex;
+}
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item{
+    margin-right: 48px;
+}
+
+.navbar-link{
+    font-size: 13px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 1.5px;
+    color: #242A45;
+}
+
+.header-btn{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    padding: 12px 32px 11px 34px;
+    background: #FA5959;
+    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+    border-radius: 5px;
+    border: 3px solid #FA5959;
+}
+
+.header-btn:active{
+    background: transparent;
+    border: 3px solid #FA5959;
+    color: #FA5959; 
+}
