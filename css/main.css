@@ -325,6 +325,9 @@ img {
 }
 
 /* Download Section Styles Start */
+.download-section{
+    padding-bottom: 149px;
+}
 .download-title{
     font-family: 'Rubik';
     font-style: normal;
@@ -445,4 +448,224 @@ img {
     border: 2px solid var(--btn-color);
 }
 /* Download Section Styles End */
+/* Asked Section Styles Start */
+.asked-section{
+    padding-bottom: 149px;
+}
 
+.asked-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.asked-summery{
+    width: 540px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.asked-title{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: var(--main-text-color);
+}
+
+.asked-desc{
+    margin-top: 0;
+    margin-bottom: 56px;
+    width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #242A45;    
+    opacity: 0.5;
+}
+
+
+summary{
+    display: flex;
+    width: 540px;
+    border-top: 1px solid var(--main-text-color);
+    padding: 28px 10px;
+}
+
+details:last-child> summary{
+    border-bottom: 1px solid var(--main-text-color);
+}
+
+.summery-title:hover{
+    color: #FA5959;
+}
+
+.summery-desc{
+    width: 540px;
+}
+
+.summary-arrow{
+    margin-left: auto;
+    color: #5267DF;
+}
+details[open]>summary>.summary-arrow{
+    transform: rotate(180deg);
+    color: #FA5959;
+}
+
+.asked-btn{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: var(--header-bg-color);
+    background: var(--btn-color);
+    box-shadow: 0px 8px 8px -4px #495dcf33;
+    border: 2px solid var(--btn-color);
+    border-radius: 5px;
+    margin-top: 54px;
+    padding: 10px 24px;
+}
+
+.asked-btn:hover{
+    background: transparent;
+    color: var(--btn-color);
+    border: 2px solid var(--btn-color);
+}
+/* Asked Section Styles End */
+
+.join-section {
+    padding: 58px 0 74px 0;
+    background-color: #5267df;
+  }
+  
+  .join-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .join-section-subtitle {
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #ffffff;
+  }
+  .join-section-title {
+    margin: 0;
+    margin-bottom: 36px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #ffffff;
+  }
+  .site-form {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  input {
+    width: 300px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: #ffffff;
+    border-radius: 5px;
+  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #242a45;
+  }
+  input:placeholder-shown {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: rgba(36, 42, 69, 0.250109);
+  }
+  .form-btn {
+    padding: 8px 22px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #ffffff;
+    border: 2px solid #fa5959;
+    background: #fa5959;
+    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+    border-radius: 5px;
+  }
+  .form-btn:hover {
+    color: #fa5959;
+    background-color: white;
+    cursor: pointer;
+  }
+  /********* Main stylees end ******************/
+  
+  /************* Footer styles start *************/
+  .site-footer {
+    background-color: #242a45;
+    padding: 32px 0 31px 0;
+  }
+  .site-footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .site-footer-start {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+  }
+  .site-footer-link-logo{
+    color: #fff;
+  }
+  .site-footer-list {
+    display: flex;
+    gap: 44px;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .site-footer-link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+  }
+  .site-footer-link:hover{
+    color: #fa5959;
+  }
+  .social {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .social-link {
+    color: white;
+  }
+  .social-link:hover{
+    color: #fa5959;
+  }
+  /************* Footer styles end *************/
